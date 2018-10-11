@@ -81,7 +81,7 @@ These items are optional because the code sample support simulated sensor data.
 ## Register a device in the IoT hub for the your device
 
 1. In the [Azure portal](https://portal.azure.com/), open your IoT hub.
-1. Click **Device Explorer**.
+1. On the left panel under "Explorers" click **IoT Devices**.
 1. In the Device Explorer pane, click **Add** to add a device to your IoT hub.
 
    **Device ID**: The ID of the new device.
