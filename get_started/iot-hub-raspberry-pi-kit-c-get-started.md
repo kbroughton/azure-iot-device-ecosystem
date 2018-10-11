@@ -172,7 +172,7 @@ Turn on Pi by using the micro USB cable and the power supply. Use the Ethernet c
 2. Open the config file by running the following commands:
 
    ```bash
-   cd iot-hub-c-raspberry-pi-clientapp
+   cd iot-hub-c-raspberry-pi-client-app
    nano config.json
    ```
 
