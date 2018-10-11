@@ -34,7 +34,6 @@ Connect Raspberry Pi to an IoT hub that you create. Then you run a sample applic
 * A Mac or a PC that is running Windows or Linux.
 * An Internet connection.
 * A 16 GB or above microSD card.
-* A USB-SD adapter or microSD card to burn the operating system image onto the microSD card.
 * A 5-volt 2-amp power supply with the 6-foot micro USB cable.
 
 The following items are optional:
@@ -104,21 +103,6 @@ These items are optional because the code sample support simulated sensor data.
 
 ## Setup Raspberry Pi
 
-### Install the Raspbian operating system for Pi
-
-Prepare the microSD card for installation of the Raspbian image.
-
-1. Download Raspbian.
-   -  [Download Raspbian Jessie with Pixel](https://www.raspberrypi.org/downloads/raspbian/) (the .zip file).
-   -  Extract the Raspbian image to a folder on your computer.
-2. Install Raspbian to the microSD card.
-   -  [Download and install the Etcher SD card burner utility](https://etcher.io/).
-   -  Run Etcher and select the Raspbian image that you extracted in step 1.
-   -  Select the microSD card drive. Note that Etcher may have already selected the correct drive.
-   -  Click Flash to install Raspbian to the microSD card.
-   -  Remove the microSD card from your computer when installation is complete. It's safe to remove the microSD card directly because Etcher automatically ejects or unmounts the microSD card upon completion.
-   -  Insert the microSD card into Pi.
-
 ### Enable SSH and SPI
 
 1. Connect Pi to the monitor, keyboard and mouse, start Pi and then log in Raspbian by using `pi` as the user name and `raspberry` as the password.
@@ -167,11 +151,7 @@ Turn on Pi by using the micro USB cable and the power supply. Use the Ethernet c
 
 ### Install the prerequisite packages
 
-1. Use one of the following SSH clients from your host computer to connect to your Raspberry Pi.
-    - [PuTTY](http://www.putty.org/) for Windows.
-    - The built-in SSH client on Ubuntu or macOS.
-
-2. Install the prerequisite packages for the Microsoft Azure IoT Device SDK for C and Cmake by running the following commands:
+1. Install the prerequisite packages for the Microsoft Azure IoT Device SDK for C and Cmake by running the following commands:
 
    ```bash
    grep -q -F 'deb http://ppa.launchpad.net/aziotsdklinux/ppa-azureiot/ubuntu vivid main' /etc/apt/sources.list || sudo sh -c "echo 'deb http://ppa.launchpad.net/aziotsdklinux/ppa-azureiot/ubuntu vivid main' >> /etc/apt/sources.list"
