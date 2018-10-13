@@ -78,7 +78,7 @@ These items are optional because the code sample support simulated sensor data.
 
    ![Get your IoT hub connection string](https://github.com/Microsoft/azure-docs/raw/master/articles/iot-hub/media/iot-hub-create-hub-and-device/5_get-azure-iot-hub-connection-string-portal.png)
 
-## Register a device in the IoT hub for the your device
+## Register a device in the IoT Edge hub for the your device
 
 1. In the [Azure portal](https://portal.azure.com/), open your IoT hub.
 1. On the left panel under "Explorers" click **IoT Devices**.
@@ -92,7 +92,7 @@ These items are optional because the code sample support simulated sensor data.
 
    **Connect device to IoT Hub**: Click **Enable**.
 
-   ![Add a device in the device explorer of your IoT hub](https://github.com/Microsoft/azure-docs/raw/master/articles/iot-hub/media/iot-hub-create-hub-and-device/6_add-device-in-azure-iot-hub-device-explorer-portal.png)
+   ![Add a device in the "Automatic Device Management" of your IoT hub](https://github.com/kbroughton/azure-docs/raw/master/articles/iot-hub/media/iot-hub-create-hub-and-device/mbk_edge_not_devices.png)
 
 1. Click **Save**.
 1. After the device is created, open the device in the **Device Explorer** pane.
