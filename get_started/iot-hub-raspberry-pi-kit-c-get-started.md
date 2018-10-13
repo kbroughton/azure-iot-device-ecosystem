@@ -98,7 +98,7 @@ These items are optional because the code sample support simulated sensor data.
 1. After the device is created, open the device in the **Device Explorer** pane.
 1. Make a note of the primary key of the connection string.
 
-   ![Get the device connection string](https://github.com/Microsoft/azure-docs/raw/master/articles/iot-hub/media/iot-hub-create-hub-and-device/7_get-device-connection-string-in-device-explorer-portal.png)
+   ![Get the device connection string (primary)](https://github.com/kbroughton/azure-iot-device-ecosystem/raw/master/get_started/mbk_iot_connection_string.png)
 
 
 ## Setup Raspberry Pi
